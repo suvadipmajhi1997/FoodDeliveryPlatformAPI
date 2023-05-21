@@ -25,8 +25,9 @@ public class OrderService {
     private IAdminRepo adminRepo;
 
     public Order createOrder( String foodName, int foodQuantity, Long userId) {
-        User user = userRepo.findById(userId)
-                .orElseThrow(() -> new EntityNotFoundException("User with id " + userId + " not found"));
+        User user = userRepo.findByUserId(userId);
+        if(user==null)
+       throw  new EntityNotFoundException("User with id " + userId + " not found");
 
         Order order = new Order();
         order.setUser(user);

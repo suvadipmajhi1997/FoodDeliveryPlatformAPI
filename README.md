@@ -105,7 +105,7 @@ This Spring Boot Application is a simple task management system that allows user
 
 * GitHub: [Suvadipmajhi1997](https://github.com/suvadipmajhi1997)
 
-* LinkedIn: [Suvadip Majhi](https://www.linkedin.com/in/ajinkya-padule-04b8541a6/)
+* LinkedIn: [Suvadip Majhi](https://www.linkedin.com/in/suvadipmajhi/)
     
 ---
 
